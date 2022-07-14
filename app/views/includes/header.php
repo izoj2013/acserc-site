@@ -53,7 +53,7 @@
     <title><?php echo SITE_NAME;?></title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm py-0 mb-4 fixed-top text-white navbar-js">
+    <nav class="navbar navbar-expand-sm pb-4 mb-4 fixed-top text-white navbar-js">
         <div class="container-fluid ">
             <a href="<?php echo URL_ROOT; ?>/home/index" class="brand-logo text-white">
                 <img class="img-fluid logo-banner px-2 m-1" width="128" height="28" src="<?php echo URL_ROOT; ?>/public/logos/acserc_georgia_ad05.svg" alt="Website-Logo">
@@ -81,8 +81,8 @@
                     </li> -->
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-university px-1"></i>Computer Science Impossible Jump - The Africa We Want</a>
                         <ul class="sub-menu mt-2">
-                            <li><a href="<?php echo URL_ROOT; ?>/public/static/africa_part_1.pdf"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part I</a></li>
-                            <li><a href="<?php echo URL_ROOT; ?>/public/static/africa_part_2.pdf"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part II</a></li>
+                            <li><a href="<?php echo URL_ROOT; ?>/publication/index"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part I</a></li>
+                            <li><a href="<?php echo URL_ROOT; ?>/publication/displayaww2"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part II</a></li>
                             <!-- <li><a href="#"><i class="fa fa-graduation-cap px-1" aria-hidden="true"></i>Our Scientific Papers</a></li> -->
                         </ul>
                     </li>

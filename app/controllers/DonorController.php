@@ -9,9 +9,9 @@
          * @@registerDonor - fn that displays a view
          * to enable a user to enter donor's details
          */
-        public function registerDonor() {
-            echo 'Here in: ' . __CLASS__ . ' under the method: ' . __METHOD__;
-            $this->view('donors/createdonor');
+        public function createDonor() {
+            echo 'Here in: ' . __CLASS__ . ' under the method: ' . __METHOD__ . '<br/>';
+            $this->view('donor/createdonor');
         }
 
 
@@ -19,7 +19,7 @@
          * @@createDonor - fn that collects
          * user input data and create a donor
          */
-        public function createDonor() {
+        public function insertDonor() {
             $data = [
                 'donor_name'            => '',
                 'contact_email'          => '',
@@ -104,41 +104,21 @@
          * @@listAllDonors - fn that retrieves all registered
          * donors from the DB and display the list on a page
          */
-        public function listAllDonors() {
-            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__;
+        public function listDonors() {
+            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__ . '<br/>';
 
-            $donors = $this->donorModel->getDonors();
-            $this->view('donor/listdonors', $donors);
+            // $donors = $this->donorModel->getDonors();
+            $this->view('donor/listdonors');
         }
 
-
-        /**
-         * @@editDonor - fn that helps
-         * to edit a registered donor
-         */
-        public function editDonor($donor_id) {
-            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__;
-            $this->view('donor/editdonor');
-        }
-
-
-        /**
-         * @@archiveDonor - fn that simply
-         * archives a registered donor
-         */
-        public function archiveDonor($donor_id) {
-            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__;
-
-            $this->view('donor/archivedonor');
-        }
 
         /**
          * @@updateDonor - fn that updates
          * a registered donor when needed
          */
         public function updateDonor($donor_id) {
-            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__;
+            echo 'Here under class: ' . __CLASS__ . ' and method ' . __METHOD__ . '<br/>';
 
-            $this->view('donor/updatedonor');
+            $this->view('donor/updatedonor', $donor_id);
         }
     }

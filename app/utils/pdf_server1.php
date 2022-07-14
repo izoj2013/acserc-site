@@ -2,9 +2,7 @@
   
     // Store the file name into variable
     $file = "/public/static/africa_part_1.pdf";
-    $msg = "My Message";
-
-    print_r($msg);
+    echo 'PDF file processing...' . '<br/>';
     $filename = "/public/static/africa_part_1.pdf";
     
     // Header content type
