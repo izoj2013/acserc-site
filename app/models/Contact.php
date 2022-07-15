@@ -13,7 +13,7 @@
          * @@getContacts - fn that retrieves all
          * submitted contact messages from the DB
          */
-        public function getContacts() {
+        public function index() {
             $this->db->query("SELECT * FROM contacts_tbl");
 
             $result = $this->db->resultSet();

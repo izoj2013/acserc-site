@@ -12,20 +12,20 @@
             </p>
         </div>
 
-        <div class="row image-matrix">
-            <h1 class="graph-title p-4">TSP [NP=P] and TSP [NP≠P] 3D Matric Spaces</h1>
-            <img class="img-fluid image-matrix m-2" width="32" height="16" src="<?php echo URL_ROOT; ?>/public/images/mip_home_matrix_caption.svg" alt="Image-Matrix">
-        </div>
-
         <div class="row slns-title fw-bold text-center pt-4 border border-2 border-warning">
-            <h1 class="mip-slns p-2">Solving the Impossible</h1>
-            <p>
+            <h1 class="mip-slns p-2">Solving the Impossible for The AFRICA WE WANT!</h1>
+            <h3>
                 Groupoid Submodular Network Algebra<br/>
                 Travelling Salesman Problem Solvability States:<br/>
                 Impossible [NP≠P] 1D Solid-Nodeset-Graph and<br/>
                 Approxiamte [NP&asymp;P] 2D Split-Node-Cover Matrix and<br/>
                 Solvable[NP=P] 3D Split-Node-Cover Molecular-Weight Periodic-Table<br/>
-            </p>
+            </h3>
+        </div>
+        
+        <div class="row image-matrix">
+            <h1 class="graph-title p-4">TSP [NP=P] and TSP [NP≠P] 3D Matric Spaces</h1>
+            <img class="img-fluid image-matrix m-2" width="32" height="16" src="<?php echo URL_ROOT; ?>/public/images/mip_home_matrix_caption.svg" alt="Image-Matrix">
         </div>
     
         <div class="row ldn-brief-bio fw-bold text-center pt-4 border border-2 border-warning">

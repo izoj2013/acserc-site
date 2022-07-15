@@ -129,7 +129,7 @@ a:hover, a:visited, a:link, a:active
 	position: absolute;
 	border-top: 2px solid #eb3007;
 	border-radius: 2px;
-	background-color: rgb(179, 118, 22);/*#191919; */
+	background-color: #0f430c;/*rgb(83, 55, 10);*/
 	z-index: 10;
 	top: 15rem;  /* How far the sub-menu box will start its animation from => FIXED 09.02.2022*/
 	opacity: 0.25;
@@ -147,7 +147,7 @@ a:hover, a:visited, a:link, a:active
 	position: absolute;
 	border-top: 2px solid #eb3007;
 	border-radius: 2px;
-	background-color: rgb(179, 118, 22);
+	background-color:  #0f430c;;
 	z-index: 10;
 	top: 12.25rem;  /* How far the sub-menu box will start its animation from => FIXED 09.02.2022*/
 	opacity: 0.25;
