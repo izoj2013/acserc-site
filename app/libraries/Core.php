@@ -9,10 +9,10 @@
          * @@__construct: constructor function
          */
         public function __construct() {
-            // echo 'We are in ' . __CLASS__ . ' under action: ' . __METHOD__ . '<br/>';
+            echo 'We are in ' . __CLASS__ . ' under action: ' . __METHOD__ . '<br/>';
             $url = $this->getUrl();
 
-            // var_dump($url);
+            var_dump($url);
 
             if(file_exists(CONTROLLERS . ucfirst($url[0]) . 'Controller' . '.php')){
                 // If file exists, set as controller
