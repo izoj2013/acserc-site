@@ -4,10 +4,18 @@
         //     $this->publicationModel = $this->model('Publication');
         // }
 
+        /**
+         * @@index - fn that displays a page
+         * containing the AWW1 publication
+         */
         public function index() {
             $this->view('publication/index');
         }
 
+        /**
+         * @@display2 - fn that displays a page
+         * containing the AWW2 publication
+         */
         public function display2() {
             $this->view('publication/displayaww2');
         }

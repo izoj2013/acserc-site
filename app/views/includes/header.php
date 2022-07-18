@@ -85,7 +85,7 @@
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-university px-1"></i>Computer Science Impossible Jump - The Africa We Want</a>
                         <ul class="sub-menu mt-2">
                             <li><a href="<?php echo URL_ROOT; ?>/publication/index"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part I</a></li>
-                            <li><a href="<?php echo URL_ROOT; ?>/publication/displayaww2"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part II</a></li>
+                            <li><a href="<?php echo URL_ROOT; ?>/publication/display2"><i class="fa fa-th-list px-1" aria-hidden="true"></i>The Africa We Want - Part II</a></li>
                             <!-- <li><a href="#"><i class="fa fa-graduation-cap px-1" aria-hidden="true"></i>Our Scientific Papers</a></li> -->
                         </ul>
                     </li>
