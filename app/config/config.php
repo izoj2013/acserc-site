@@ -1,8 +1,8 @@
 <?php
     // DIRECTORY CONSTANTS
     define('APP_ROOT', dirname(dirname(__FILE__)));
-    // define('URL_ROOT', 'https://makingimpossiblepossible.com/mipsite');
-    define('URL_ROOT', 'https://localhost/mipsite');
+    define('URL_ROOT', 'https://makingimpossiblepossible.com');
+    // define('URL_ROOT', 'https://localhost/mipsite');
     define('CONTROLLERS', APP_ROOT . DIRECTORY_SEPARATOR . 'controllers'. DIRECTORY_SEPARATOR);
     define('DATA', APP_ROOT . DIRECTORY_SEPARATOR . 'data'. DIRECTORY_SEPARATOR);
     define('LIBRARIES', APP_ROOT . DIRECTORY_SEPARATOR . 'libraries'. DIRECTORY_SEPARATOR);
